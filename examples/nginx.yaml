@@ -1,0 +1,16 @@
+resources:
+  - id: nginx-config
+    type: file
+    path: /etc/nginx/nginx.conf
+    source: nginx.conf
+    owner: root
+    group: root
+    mode: "0644"
+
+  - id: nginx-service
+    type: systemd
+    name: nginx.service
+    enabled: true
+    running: true
+    requires: [nginx-config]
+    reload_when_changed: [nginx-config]
