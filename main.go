@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zach/huddle/internal/cli"
+	"github.com/zawachte/huddle/internal/cli"
 )
 
 func main() {

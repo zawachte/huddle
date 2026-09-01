@@ -1,4 +1,4 @@
-module github.com/zach/huddle
+module github.com/zawachte/huddle
 
 go 1.27.0
 

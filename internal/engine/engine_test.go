@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zach/huddle/internal/model"
+	"github.com/zawachte/huddle/internal/model"
 )
 
 func TestFilePlanAndApply(t *testing.T) {

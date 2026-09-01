@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zach/huddle/internal/config"
-	"github.com/zach/huddle/internal/engine"
-	"github.com/zach/huddle/internal/model"
+	"github.com/zawachte/huddle/internal/config"
+	"github.com/zawachte/huddle/internal/engine"
+	"github.com/zawachte/huddle/internal/model"
 )
 
 func Run(args []string, stdin io.Reader, stdout, stderr io.Writer) error {

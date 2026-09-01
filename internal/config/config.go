@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zach/huddle/internal/model"
+	"github.com/zawachte/huddle/internal/model"
 	"sigs.k8s.io/yaml"
 )
 

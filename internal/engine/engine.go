@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/pmezard/go-difflib/difflib"
-	"github.com/zach/huddle/internal/config"
-	"github.com/zach/huddle/internal/model"
+	"github.com/zawachte/huddle/internal/config"
+	"github.com/zawachte/huddle/internal/model"
 )
 
 func BuildPlan(source string, cfg model.Config, raw []byte) (model.Plan, error) {
